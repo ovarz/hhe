@@ -1,0 +1,1 @@
+<style type="text/css">*, html{margin:0; padding:0;}</style><a itemprop="url" href="#" style="margin:auto 0; width:100%; position:relative;" target="_blank"> <img itemprop="image" src="../img/sample/iklan/bola-360x590.jpg" alt="paralax" style="width:100%;"> </a>
