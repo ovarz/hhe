@@ -36,24 +36,6 @@ var flex_thumb = function(){
 
 
 
-/* back to top */
-var back_to_top = function(){
-	$(window).scroll(function() {
-		if($(this).scrollTop() != 0) {
-			$('#btt').fadeIn();	
-		} else {
-			$('#btt').fadeOut();
-		}
-	});
- 
-	$('#btt').click(function() {
-		$('body,html').animate({scrollTop:0},800);
-	});	
-}
-/* end back to top */
-
-
-
 /* tabception */
 jQuery('.tabception ul.tabs').each(function(){
     var $active, $content, $links = jQuery(this).find('a');
@@ -148,7 +130,6 @@ var main_slideshow = function(){
 
 
 $(document).ready(function(){
-  back_to_top();
   flex_thumb();
   refresh_up();
   sticky_header();

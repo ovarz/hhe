@@ -15,6 +15,12 @@
           <div class="slide-content">
             <div class="slide-title">
               <h2>Hankyu Hanshin Express</h2>
+			  <div class="read-more">
+			    <span>
+			      <div class="more-icon content_center"><i class="fa fa-search" aria-hidden="true"></i></div>
+			      <div class="more-name">Learn More</div>
+				</span>
+			  </div>
             </div>
           </div>
         </a>

@@ -6,7 +6,6 @@
 
 
 
-<div id="btt" title="Return To Top"></div>
 <script src="js/jquery.js" type="text/javascript"></script>
 <script src="js/hhe.js" type="text/javascript"></script>
 

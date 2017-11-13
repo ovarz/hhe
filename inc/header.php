@@ -33,6 +33,18 @@
             <span><i class="fa fa-linkedin" aria-hidden="true"></i></span>
           </a>
         </li>
+		
+		<li>
+          <a href="javascript:void(0)" class="content_center">
+            <span><img src="img/flag-id.png" /></span>
+          </a>
+        </li>
+		
+		<li>
+          <a href="javascript:void(0)" class="content_center">
+            <span><img src="img/flag-uk.png" /></span>
+          </a>
+        </li>
       </ul>
     </li>
     
@@ -71,7 +83,7 @@
   <ul>
     <li class="top-logo">
       <a href="javascript:void(0)" class="content_center">
-        <img src="img/logo.gif" />
+        <img src="img/logo.jpg" />
       </a>
     </li>
     
