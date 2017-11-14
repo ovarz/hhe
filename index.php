@@ -112,6 +112,7 @@
               <a href="javascript:void(0)">
                 <div class="news-thumb flex_lazy"><img data-original="img/sample/slide-<?php echo rand(1, 4); ?>.jpg" /></div>
                 <div class="news-title"><h2>Lorem Ipsum Dolor Sit Amet</h2></div>
+				<div class="news-date">Monday, 11 November 2017</div>
                 <div class="news-sum">Consectetur adipiscing elit. Nam sollicitudin tristique scelerisque. Praesent vitae consectetur tortor, ut faucibus ligula. Nam commodo nibh sit amet elit volutpat maximus.</div>
               </a>
             </div>

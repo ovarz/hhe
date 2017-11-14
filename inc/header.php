@@ -24,18 +24,6 @@
       <ul>
         <li>
           <a href="javascript:void(0)" class="content_center">
-            <span><i class="fa fa-facebook" aria-hidden="true"></i></span>
-          </a>
-        </li>
-        
-        <li>
-          <a href="javascript:void(0)" class="content_center">
-            <span><i class="fa fa-linkedin" aria-hidden="true"></i></span>
-          </a>
-        </li>
-		
-		<li>
-          <a href="javascript:void(0)" class="content_center">
             <span><img src="img/flag-id.png" /></span>
           </a>
         </li>

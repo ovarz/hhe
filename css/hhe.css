@@ -126,10 +126,20 @@ section{min-height:calc(100vh - 60px);}
 
 footer{color:#E0E0E0; margin-top:20px;}
 footer > div{padding:10px; box-sizing:border-box;}
+footer .socmed{text-align:center; background:#424242;}
+footer .socmed > ul{display:inline-block;}
+footer .socmed > ul > li{float:left; margin:0 5px;}
+footer .socmed > ul > li > a{padding:0 11px; height:30px; border:2px solid #FFF; color:#FFF;
+-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;}
+footer .socmed > ul > li > a:hover{border:2px solid #FFA000; color:#FFA000;}
+footer .socmed > ul > li > a > span > *{float:left;}
+footer .socmed > ul > li > a > span > h6{margin-left:10px; padding-left:10px; border-left:2px solid #FFF;}
+footer .socmed > ul > li > a:hover > span > h6{border-left:2px solid #FFA000;}
 footer .copyright{background:#043175;}
 footer .copyright > h6{display:block; text-align:center;}
 
 @media screen and (min-width:300px) and (max-width:1023px){
+  footer .socmed > ul > li > a > span > h6{display:none;}
   footer .copyright > h6{font-size:12px;}	
 }
 
@@ -335,9 +345,13 @@ transition:all 0.4s; -moz-transition:all 0.4s; -webkit-transition:all 0.4s; -o-t
 
 .news-list-detail{position:relative; min-height:90px;}
 .news-list-detail  .news-thumb{position:absolute; top:5px; left:0; width:90px; height:90px;}
-.news-list-detail  .news-title{margin-left:100px;}
-.news-list-detail  .news-title h2{color:#212121; font-size:18px; line-height:28px;}
-.news-list-detail  .news-sum{margin-left:100px; color:#757575; font-weight:400; font-size:14px; line-height:20px;}
+.news-list-detail  .news-title, .news-list-detail  .news-date, .news-list-detail  .news-sum{margin-left:100px;}
+.news-list-detail  .news-title{color:#212121;
+transition:all 0.4s; -moz-transition:all 0.4s; -webkit-transition:all 0.4s; -o-transition:all 0.4s;}
+.news-list-detail  .news-title h2{font-size:18px; line-height:28px;}
+.news-list-detail  .news-title:hover{color:#FFA000;}
+.news-list-detail  .news-date{color:#9E9E9E; font-weight:400; font-size:12px; line-height:18px;}
+.news-list-detail  .news-sum{color:#616161; font-weight:400; font-size:14px; line-height:20px;}
 
 @media screen and (max-width:767px){
   .news-list > div > ul > li{width:calc(100% - 20px);  flex-basis:calc(100% - 20px);}
