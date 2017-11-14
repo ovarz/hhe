@@ -52,6 +52,14 @@
     
     <li class="top-info top-contact">
       <ul>
+	    <li>
+          <a href="javascript:void(0)" class="content_center">
+            <span>
+              <i class="fa fa-search" aria-hidden="true"></i>
+              <b>Search</b>
+            </span>
+          </a>
+        </li>
         <li>
           <a href="javascript:void(0)" class="content_center">
             <span>
@@ -135,6 +143,15 @@
               <li><a href="javascript:void(0)">History</a></li>
             </ul>
           </div>
+        </li>
+		
+		<li>
+          <a href="javascript:void(0)" class="content_center">
+            <div class="top-bar"></div>
+            <span>
+              <h3>News</h3>
+            </span>
+          </a>
         </li>
       </ul>
     </li>

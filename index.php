@@ -17,7 +17,7 @@
               <h2>Hankyu Hanshin Express</h2>
 			  <div class="read-more">
 			    <span>
-			      <div class="more-icon content_center"><i class="fa fa-search" aria-hidden="true"></i></div>
+			      <div class="more-icon content_center"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
 			      <div class="more-name">Learn More</div>
 				</span>
 			  </div>
@@ -72,8 +72,8 @@
     
     
     
-    <!-- news list -->
-    <div class="module news-list">
+    <!-- news box -->
+    <div class="module news-box">
       <div>
         <div class="module-title">
           <h3>Our Service</h3>
@@ -82,7 +82,33 @@
         <ul>
           <?php for ($i=1; $i <= 4 ; $i++) { ?>
           <li>
-            <div class="news-box">
+            <div class="news-box-detail">
+              <a href="javascript:void(0)">
+                <div class="news-thumb flex_lazy"><img data-original="img/sample/slide-<?php echo rand(1, 4); ?>.jpg" /></div>
+                <div class="news-title"><h2>Lorem Ipsum Dolor Sit Amet</h2></div>
+                <div class="news-sum">Consectetur adipiscing elit. Nam sollicitudin tristique scelerisque. Praesent vitae consectetur tortor, ut faucibus ligula. Nam commodo nibh sit amet elit volutpat maximus.</div>
+              </a>
+            </div>
+          </li>
+          <?php } ?>
+        </ul>
+      </div>
+    </div>
+    <!-- end news box -->
+	
+	
+	
+	<!-- news list -->
+    <div class="module news-list">
+      <div>
+        <div class="module-title">
+          <h3>Our News</h3>
+          <span class="bar"></span>
+        </div>
+        <ul>
+          <?php for ($i=1; $i <= 10 ; $i++) { ?>
+          <li>
+            <div class="news-list-detail">
               <a href="javascript:void(0)">
                 <div class="news-thumb flex_lazy"><img data-original="img/sample/slide-<?php echo rand(1, 4); ?>.jpg" /></div>
                 <div class="news-title"><h2>Lorem Ipsum Dolor Sit Amet</h2></div>
